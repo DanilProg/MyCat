@@ -1,0 +1,7 @@
+.cats__show{
+    display: flex;
+    justify-content: center;
+}
+.cats__button-show{
+    margin-top: 25px;
+}

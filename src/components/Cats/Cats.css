@@ -1,0 +1,20 @@
+.cats{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    user-select: none;
+}
+.cats:hover{
+    box-shadow: 2px 5px 11px 11px #a1a1a1;
+}
+.cats__img{
+    width: 200px;
+    height: 150px;
+}
+.cats__like{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}

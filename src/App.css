@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --width-container:1400px
+}
+button{
+    all: unset;
+}
+.container{
+    max-width: var(--width-container);
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px;
+}
+.button:hover{
+    color: white;
+    background-color: #1795ff;
+}
+.button:active{
+    background-color: #0360ab;
+}
+.cats__content{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(5, 1fr);
+}
